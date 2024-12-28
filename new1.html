@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="new1.css">
+</head>
+<body>
+    
+
+    <form action="Project.html" class="t1">
+        <h1 class="sign">Cart<i class="fa-solid fa-cart-shopping fa-bounce" style="color: #f5009b;"></i></h1>
+        <h1 class="se1">Contact Information</h1>
+
+        <p>Name: *<input type="text" name="name" id="name" required></p>
+
+        <legend>Gender:</legend>
+        <p>
+            Male<input type="radio" name="gender" id="Male" required>
+            Female <input type="radio" name="gender" id="Female">
+        </p>
+
+        <p>Address: <textarea name="Address" id="Address" cols="30" rows="3"></textarea></p>
+
+        <p>Email: *<input type="email" name="Email" id="Email" required></p>
+
+        <p>Pincode: *<input type="number" name="Pincode" id="Pincode" required></p>
+
+        <h1 class="se1">Payment Information</h1>
+
+        <p>Card Type:
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="credit_card">Credit Card</option>
+            </select>
+        </p>
+
+        <p>Card number: *<input type="number" name="cardNumber" id="cardNumber" required></p>
+
+        <p>Expiration Date: <input type="date" name="expiry" id="expiry"></p>
+
+        <p>CVV: <input type="number" name="cvv" id="cvv" required></p>
+
+        <input class="e1" type="submit" value="Pay Now">
+    </form>
+
+</body>
+</html>
